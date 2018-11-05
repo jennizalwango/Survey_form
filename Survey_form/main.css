@@ -1,0 +1,64 @@
+
+/*this is centring the form and its children*/
+.main{
+    box-sizing: border-box;
+    display: block;
+    text-align: center;
+    background-color: #eee;
+    margin: 100px;
+
+}
+/*this is giving the select tags a padding*/
+#option{
+padding: 12px 8px;
+}
+/*this is giving the input space inside them*/
+.pad{
+    padding: 6px 3px;
+}
+body{
+    background-color:#44ddaa;
+}
+/*this is styling the h1 tags*/
+.surv{
+    color: hsla(207, 87%, 12%, 0.815);
+    font-size: 35px;
+    text-align: center;
+}
+.Enter{
+    padding: 25px 20px;
+}
+ 
+  #submit{
+      background-color: #4dee;
+      border-style:outset;
+      height: 50px;
+      width: 100px;
+      border-color: aqua
+  }
+  /*this is stlying the checkbox*/
+  .container {
+    display: block;
+    position: relative;
+    padding-left: 25px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 19px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+
+
+}
+
+  
+.checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
